@@ -6,9 +6,8 @@ class Solution {
             int current = nums[i];
             if (numCountMap.containsKey(current)) {
                 return true;
-            } else {
-                numCountMap.put(current, 0);
-            }
+            } 
+            numCountMap.put(current, 0);
         }
         
         return false;
