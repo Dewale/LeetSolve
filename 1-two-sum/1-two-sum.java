@@ -68,8 +68,8 @@ Put all nums in a map<Int, List<Int>>
 Fail - inefficient time complexity as we need to remove from the list in the map for duplicates
 
 Take 3
-Loop through the array and place the difference in the map with the current element position.
-if 
+Loop through the array and place the difference in the map with the current element position. 
+This allows for a sort of reverse lookup of the index if at any point we see that current element has an entry in the diff map
 
 
 */
